@@ -18,8 +18,8 @@ function Resume({resumeVersion, setResumeVersion}) {
       <div className="Resume">
         <MenuBar active={1}></MenuBar>
         <div className = "version-buttons">
-          <a onClick = {pdfButtonHandler}>PDF</a>
-          <a onClick = {htmlButtonHandler}>HTML</a>
+          <button onClick = {pdfButtonHandler}>PDF</button>
+          <button onClick = {htmlButtonHandler}>HTML</button>
         </div>
         <div className="resume-body">
           <HTMLResume/>
@@ -32,11 +32,12 @@ function Resume({resumeVersion, setResumeVersion}) {
       <div className="Resume">
         <MenuBar active={1}></MenuBar>
         <div className = "version-buttons">
-          <a onClick = {pdfButtonHandler}>PDF</a>
-          <a onClick = {htmlButtonHandler}>HTML</a>
+          <button onClick = {pdfButtonHandler}>PDF</button>
+          <button onClick = {htmlButtonHandler}>HTML</button>
         </div>
         <div className="pdf-viewer">
-         <embed src="https://zhihao0040.github.io/PersonalWebsite/code/personal-website/public/zhihao0040Resume.pdf" width="800px" height="1100px" />
+         {/* <embed src="../../public/zhihao0040Resume.pdf" width="800px" height="1100px" /> */}
+         <iframe title="resume PDF version" src="https://zhihao0040.github.io/PersonalWebsite/zhihao0040Resume.pdf" width="800px" height="1200px"></iframe>
         </div>
        
       </div>

@@ -58,7 +58,7 @@ body {
 }
 
 
-.version-buttons a {
+.version-buttons button {
 
 	display: inline-block;
 	padding: 12px 20px;
