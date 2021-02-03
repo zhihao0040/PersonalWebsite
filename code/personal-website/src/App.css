@@ -1,0 +1,64 @@
+/* https://stackoverflow.com/questions/63767864/how-do-i-select-link-tag-in-react-router-dom-with-css */
+
+.menu {
+  margin-left: 0px;
+  background-color: rgba(20, 19, 19, 0.751);
+}
+
+.menu ul {
+  /* display: flex; */
+  /* margin-left: 0px 0px 0px 0px; */
+  margin-block-start: 0em;
+  margin-block-end: 0px;
+  padding-inline-start: 0;
+  margin-inline-start: 0;
+  list-style-type: none;
+  /* justify-content: space-between; */
+ }
+
+.menu li {
+  /* flex: 1; */
+  /* border: 2px solid black; */
+  /* background-color: rgba(20, 19, 19, 0.564); */
+  text-align:center;
+  /* padding: 4px 80px 4px 0px; */
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: inline-block;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+.menu a {
+  color:aliceblue;
+  display: block;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  /* background-color:  rgba(20, 19, 19, 1); */
+  color: rgb(122, 242, 248);
+  
+}
+
+
+.menu li:last-child {
+  float: right;
+  /* margin-right: 80px; */
+}
+
+.active {
+  background-color: rgba(171, 171, 171, 0.782);
+}
+
+/* .menu li:hover {
+  background-color:  rgba(20, 19, 19, 1);
+} */
+
+/* .menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+} */
