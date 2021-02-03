@@ -14,11 +14,11 @@ function App() {
     <Router>
       <div className="App">
         <Switch>
-          <Route exact path="/"><Home></Home></Route>
-          <Route exact path="/resume"><Resume resumeVersion = {resumeVersion} setResumeVersion = {setResumeVersion}></Resume></Route>
-          <Route exact path="/contacts"><Contacts></Contacts></Route>
-          <Route exact path="/skills"><Skills></Skills></Route>
-          <Route exact path="/projects"><Projects></Projects></Route>
+          <Route exact path="/PersonalWebsite/"><Home></Home></Route>
+          <Route exact path="/PersonalWebsite/resume"><Resume resumeVersion = {resumeVersion} setResumeVersion = {setResumeVersion}></Resume></Route>
+          <Route exact path="/PersonalWebsite/contacts"><Contacts></Contacts></Route>
+          <Route exact path="/PersonalWebsite/skills"><Skills></Skills></Route>
+          <Route exact path="/PersonalWebsite/projects"><Projects></Projects></Route>
         </Switch>
       </div>
     </Router>
