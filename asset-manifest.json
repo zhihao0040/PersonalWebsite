@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/PersonalWebsite/static/css/main.7b255e28.chunk.css",
+    "main.js": "/PersonalWebsite/static/js/main.1ae0805d.chunk.js",
+    "main.js.map": "/PersonalWebsite/static/js/main.1ae0805d.chunk.js.map",
+    "runtime-main.js": "/PersonalWebsite/static/js/runtime-main.f1bcac94.js",
+    "runtime-main.js.map": "/PersonalWebsite/static/js/runtime-main.f1bcac94.js.map",
+    "static/js/2.8ce07c13.chunk.js": "/PersonalWebsite/static/js/2.8ce07c13.chunk.js",
+    "static/js/2.8ce07c13.chunk.js.map": "/PersonalWebsite/static/js/2.8ce07c13.chunk.js.map",
+    "static/js/3.e2dc8a0d.chunk.js": "/PersonalWebsite/static/js/3.e2dc8a0d.chunk.js",
+    "static/js/3.e2dc8a0d.chunk.js.map": "/PersonalWebsite/static/js/3.e2dc8a0d.chunk.js.map",
+    "index.html": "/PersonalWebsite/index.html",
+    "static/css/main.7b255e28.chunk.css.map": "/PersonalWebsite/static/css/main.7b255e28.chunk.css.map",
+    "static/js/2.8ce07c13.chunk.js.LICENSE.txt": "/PersonalWebsite/static/js/2.8ce07c13.chunk.js.LICENSE.txt",
+    "static/media/kisspng-computer-icons-linkedin-5aff0283e54964.1704227815266617639392.cabb3cba.png": "/PersonalWebsite/static/media/kisspng-computer-icons-linkedin-5aff0283e54964.1704227815266617639392.cabb3cba.png",
+    "static/media/maps.35e35866.png": "/PersonalWebsite/static/media/maps.35e35866.png",
+    "static/media/www.05650324.png": "/PersonalWebsite/static/media/www.05650324.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f1bcac94.js",
+    "static/js/2.8ce07c13.chunk.js",
+    "static/css/main.7b255e28.chunk.css",
+    "static/js/main.1ae0805d.chunk.js"
+  ]
+}
