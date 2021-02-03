@@ -11,7 +11,8 @@ function MenuBar({active}) {
             <li className={`${active === 0 ? "active" : ""}`}><Link to="/">HOME</Link></li>
             <li className={`${active === 1 ? "active" : ""}`}><Link to="/resume">RESUME</Link></li>
             <li className={`${active === 2 ? "active" : ""}`}><Link to="/projects">PROJECTS</Link></li>
-            <li className={`${active === 3 ? "active" : ""}`}><Link to="/contacts">CONTACTS</Link></li>
+            <li className={`${active === 3 ? "active" : ""}`}><Link to="/skills">SKILLS</Link></li>
+            <li className={`${active === 4 ? "active" : ""}`}><Link to="/contacts">CONTACTS</Link></li>
         </ul>
     </div>
     )

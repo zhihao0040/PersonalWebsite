@@ -5,7 +5,7 @@ const Projects = () => {
     return (
       <div className="Projects">
         <MenuBar active={2}></MenuBar>
-        <h1>Projects</h1>
+            <h1>Projects</h1>
       </div>
     )
   }

@@ -4,7 +4,8 @@ import MenuBar from './MenuBar'
 function Contacts() {
   return (
     <div className="Contacts">
-      <MenuBar active={3}></MenuBar>
+        <MenuBar active={4}></MenuBar>
+        <div className="contacts-section"></div>
     </div>
   );
 }
