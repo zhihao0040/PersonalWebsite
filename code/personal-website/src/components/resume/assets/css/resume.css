@@ -16,8 +16,7 @@
     width: 794px;
     left: 50%;
     transform: translateX(-50%);
-    overflow: auto;
-    overflow-x:scroll;
+    overflow: hidden;
 }
 
 
@@ -252,6 +251,11 @@
     text-align:center;
 }
 
+.resume-interests-entry {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .resume-interests-entry li {
     border: 1px solid grey; 
     display: inline;
@@ -267,6 +271,7 @@
     margin-top: 3px;
 }
 
+/* #resume-separator {font-size: 30px;} */
 
 #resume-hr {background-color: rgb(57, 116, 218); width: 794px;}
 #resume-phone-img {top:2px;}
@@ -282,8 +287,8 @@
         width: 100%; 
         left: 50%;
         transform: translateX(-50%);
-        overflow: auto;
-        overflow-x:scroll;
+        /* overflow: auto;
+        overflow-x:scroll; */
     }
 
     .resume-name {
@@ -300,8 +305,8 @@
     /*  */
     .resume-body-left-half {
         /* margin-left: 50px; */
-        margin-left: 15px;
-        width: 40%;
+        margin-left: 5px;
+        width: 48%;
         /* border: 1px solid black; */
         float: left;
     }
@@ -309,13 +314,14 @@
     .resume-body-right-half {
         /* border: 1px solid red; */
         float:right;
-        width: 38%;
+        width: 47%;
+        margin-right: 5px;
         /* margin-right: 30px; */
     }
 
     .resume-dot-points-left {
         /* border: 1px solid black; */
-        width: 60.5%;
+        width: 63.5%;
         float:left;
     }
 
@@ -336,15 +342,31 @@
         display: block;
     }
 
+    .resume-bottom {
+        /* border: 10px solid rgb(127, 58, 230); */
+        clear: both;
+    }
+    
+
     .resume-interests-entry li {
         border: 1px solid grey; 
-        display: inline;
+        display: inline-block;
         border-radius: 3px;
         margin-right: 30px;
         padding: 3px 3px 3px 3px;
+        height: 16px;
+        text-align: center;
+        margin-bottom: 12px;
+    }
+
+    .resume-interests-entry li:last-child {
+        margin-bottom: 0px;
     }
 
     .resume-interests-entry {
-        line-height: 30px;
+        /* line-height: 16px; */
+        height:auto;
+        display:block;
+        /* justify-content: space-between  ; */
     }
 }

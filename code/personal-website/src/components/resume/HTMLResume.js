@@ -130,6 +130,7 @@ const HTMLResume = () => {
                     </ul>
                 </div>
                 <div className="resume-bottom">
+                    <br id="resume-separator"></br>
                     <h2 className="resume-section-name resume-bottom-name">INTERESTS</h2>
                     <ul className="resume-interests-entry">
                         <li>Machine Learning</li>
