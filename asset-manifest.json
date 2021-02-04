@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/PersonalWebsite/static/css/main.e610a96a.chunk.css",
+    "main.css": "/PersonalWebsite/static/css/main.f9275778.chunk.css",
     "main.js": "/PersonalWebsite/static/js/main.575be692.chunk.js",
     "main.js.map": "/PersonalWebsite/static/js/main.575be692.chunk.js.map",
     "runtime-main.js": "/PersonalWebsite/static/js/runtime-main.f1bcac94.js",
@@ -10,7 +10,7 @@
     "static/js/3.e2dc8a0d.chunk.js": "/PersonalWebsite/static/js/3.e2dc8a0d.chunk.js",
     "static/js/3.e2dc8a0d.chunk.js.map": "/PersonalWebsite/static/js/3.e2dc8a0d.chunk.js.map",
     "index.html": "/PersonalWebsite/index.html",
-    "static/css/main.e610a96a.chunk.css.map": "/PersonalWebsite/static/css/main.e610a96a.chunk.css.map",
+    "static/css/main.f9275778.chunk.css.map": "/PersonalWebsite/static/css/main.f9275778.chunk.css.map",
     "static/js/2.8ce07c13.chunk.js.LICENSE.txt": "/PersonalWebsite/static/js/2.8ce07c13.chunk.js.LICENSE.txt",
     "static/media/kisspng-computer-icons-linkedin-5aff0283e54964.1704227815266617639392.cabb3cba.png": "/PersonalWebsite/static/media/kisspng-computer-icons-linkedin-5aff0283e54964.1704227815266617639392.cabb3cba.png",
     "static/media/maps.35e35866.png": "/PersonalWebsite/static/media/maps.35e35866.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.f1bcac94.js",
     "static/js/2.8ce07c13.chunk.js",
-    "static/css/main.e610a96a.chunk.css",
+    "static/css/main.f9275778.chunk.css",
     "static/js/main.575be692.chunk.js"
   ]
 }
