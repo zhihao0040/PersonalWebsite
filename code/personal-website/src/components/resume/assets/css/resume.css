@@ -16,7 +16,11 @@
     width: 794px;
     left: 50%;
     transform: translateX(-50%);
+    overflow: auto;
+    overflow-x:scroll;
 }
+
+
 
 .resume-page a {
     text-decoration: none;
@@ -52,6 +56,7 @@
     width: 300px;
     background-color: white;
 }
+
 
 .resume-name {
     /* border: 1px solid black; */
@@ -265,3 +270,81 @@
 
 #resume-hr {background-color: rgb(57, 116, 218); width: 794px;}
 #resume-phone-img {top:2px;}
+
+/* was 794 width, was 300 width */
+@media screen and (max-width: 790px) {
+    .resume-page {
+        position: absolute;
+        border: 1px inset #cccccc;
+        border-radius: 3px;
+        box-shadow: 3px 5px;
+        display: inline-block;
+        width: 100%; 
+        left: 50%;
+        transform: translateX(-50%);
+        overflow: auto;
+        overflow-x:scroll;
+    }
+
+    .resume-name {
+        /* border: 1px solid black; */
+        text-align:center;
+    }
+
+    .resume-name-intro {
+        margin-left:0px;
+        width: 30/79 * 100%;
+        /* border: 1px solid red; */
+    }
+    
+    /*  */
+    .resume-body-left-half {
+        /* margin-left: 50px; */
+        margin-left: 15px;
+        width: 40%;
+        /* border: 1px solid black; */
+        float: left;
+    }
+
+    .resume-body-right-half {
+        /* border: 1px solid red; */
+        float:right;
+        width: 38%;
+        /* margin-right: 30px; */
+    }
+
+    .resume-dot-points-left {
+        /* border: 1px solid black; */
+        width: 60.5%;
+        float:left;
+    }
+
+    .resume-secondary-score p {
+        margin-top: 0px;
+        color: rgb(57, 116, 218); 
+        float: left;
+        margin-bottom: 0px;
+    }
+
+    .resume-date-education {
+        float:none;
+        /* display: inline; */
+    }
+
+    .resume-education-average-score {
+        float: left;
+        display: block;
+    }
+
+    .resume-interests-entry li {
+        border: 1px solid grey; 
+        display: inline;
+        border-radius: 3px;
+        margin-right: 30px;
+        padding: 3px 3px 3px 3px;
+    }
+
+    .resume-interests-entry {
+        line-height: 30px;
+    }
+}
