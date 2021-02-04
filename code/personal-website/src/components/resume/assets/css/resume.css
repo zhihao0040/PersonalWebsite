@@ -298,7 +298,7 @@
 
     .resume-name-intro {
         margin-left:0px;
-        width: 30/79 * 100%;
+        width: 91%;
         /* border: 1px solid red; */
     }
     
@@ -345,6 +345,10 @@
     .resume-bottom {
         /* border: 10px solid rgb(127, 58, 230); */
         clear: both;
+    }
+
+    .resume-left-half li, .resume-right-half li {
+        font-size: 9px;
     }
     
 
