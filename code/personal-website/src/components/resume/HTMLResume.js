@@ -73,7 +73,7 @@ const HTMLResume = () => {
                     <p className="resume-education-description">High Distinction(HD) Average.</p>
                     <h3 className="resume-section-entry">IELTS (International English Language Testing System)</h3>
                     <div className="resume-date-score">
-                        <div className="resume-date resume-date-education"><p>(01/2018 - 12/2020)</p></div>
+                        <div className="resume-date resume-date-education"><p>(20/01/2020)</p></div>
                         <div className="resume-education-average-score"><p>Band: 8.5</p></div>
                     </div>
                     <div className="resume-education-split-dot-points">
