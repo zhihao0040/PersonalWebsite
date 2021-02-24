@@ -35,14 +35,6 @@ const HTMLResume = () => {
             <div className="resume-body">
                 <div className="resume-body-left-half">
                     <h2 className="resume-section-name">EXPERIENCE</h2>
-                    <h3 className="resume-section-entry">Monash Tutor, Monash University<p class="resume-date">(02/2021 - Ongoing)</p></h3>
-                    <p className="resume-section-entry-desc">Assisting lecturers and running lab sessions to enhance student learning.</p>
-                    <ul className="resume-section-entry-points-list">
-                        <li>Run lab sessions for different classes.</li>
-                        <li>Explain and clarify unit's contents for students.</li>
-                        <li>Learned to explain concepts clearly and concisely.</li>
-                        <li>Learned to work in a professional setting as a team.</li>
-                    </ul>
                     <h3 className="resume-section-entry">Research Position, Monash University IT Dept.<p class="resume-date">(12/2019 - 06/2020)</p></h3>
                     <p className="resume-section-entry-desc">Developed a machine learning capable mobile app to predict if a patient will have complications when taking a medication.</p>
                     <ul className="resume-section-entry-points-list">
@@ -59,6 +51,15 @@ const HTMLResume = () => {
                         <li>Learned to use Flutter and Dart to create a cross-platform application.</li>
                         <li>Learned about the software development life-cycle practically.</li>
                         <li>Learned to work in a relatively big team (5 members in the back-end, and 7 in the front-end).</li>
+                    </ul>
+                    <h3 className="resume-section-entry">Team Leader, Computer Science Project<p class="resume-date">(07/2020 - 11/2020)</p></h3>
+                    <p className="resume-section-entry-desc">Created a coronary artery disease prediction web app. <a href="https://cadprediction.herokuapp.com">https://cadprediction.herokuapp.com</a></p>
+                    <ul className="resume-section-entry-points-list">
+                        <li>Led a team of 3 - allocated tasks, organized meetings, resolved conflicts, and supervised team members' progress.</li>
+                        <li>Explored and used a novel feature selection technique.</li>
+                        <li>Developed machine learning models to embed inside the web app.</li>
+                        <li>Learned to work independently.</li>
+                        <li>Learned how to work on a project from scratch whilst applying knowledge obtained from all other units.</li>
                     </ul>
                     <h2 className="resume-section-name">EDUCATION</h2>
                     <h3 className="resume-section-entry">Bachelor of Computer Science<p class="resume-education-location">Monash University</p></h3>
