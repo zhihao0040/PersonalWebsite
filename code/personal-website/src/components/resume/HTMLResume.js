@@ -35,7 +35,7 @@ const HTMLResume = () => {
             <div className="resume-body">
                 <div className="resume-body-left-half">
                     <h2 className="resume-section-name">EXPERIENCE</h2>
-                    <h3 className="resume-section-entry">Monash Tutor, Monash University<p className="resume-date">(02/2021 - Ongoing)</p></h3>
+                    <h3 className="resume-section-entry">Teaching Associate, Monash University<p className="resume-date">(02/2021 - Ongoing)</p></h3>
                     <p className="resume-section-entry-desc">Assisting lecturers and running lab sessions to enhance student learning for the unit <a className="distinctive" rel="noreferrer" href="https://handbook.monash.edu/2021/units/FIT3155" target="_blank">Advanced Algorithms and Data Structures</a>.</p>
                     <ul className="resume-section-entry-points-list">
                         <li>Run lab sessions for different classes.</li>
