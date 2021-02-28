@@ -35,15 +35,15 @@ const HTMLResume = () => {
             <div className="resume-body">
                 <div className="resume-body-left-half">
                     <h2 className="resume-section-name">EXPERIENCE</h2>
-                    <h3 className="resume-section-entry">Monash Tutor, Monash University<p class="resume-date">(02/2021 - Ongoing)</p></h3>
-                    <p className="resume-section-entry-desc">Assisting lecturers and running lab sessions to enhance student learning.</p>
+                    <h3 className="resume-section-entry">Monash Tutor, Monash University<p className="resume-date">(02/2021 - Ongoing)</p></h3>
+                    <p className="resume-section-entry-desc">Assisting lecturers and running lab sessions to enhance student learning for the unit <a className="distinctive" rel="noreferrer" href="https://handbook.monash.edu/2021/units/FIT3155" target="_blank">Advanced Algorithms and Data Structures</a>.</p>
                     <ul className="resume-section-entry-points-list">
                         <li>Run lab sessions for different classes.</li>
                         <li>Explain and clarify unit's contents for students.</li>
                         <li>Learned to explain concepts clearly and concisely.</li>
                         <li>Learned to work in a professional setting as a team.</li>
                     </ul>
-                    <h3 className="resume-section-entry">Research Position, Monash University IT Dept.<p class="resume-date">(12/2019 - 06/2020)</p></h3>
+                    <h3 className="resume-section-entry">Research Position, Monash University IT Dept.<p className="resume-date">(12/2019 - 06/2020)</p></h3>
                     <p className="resume-section-entry-desc">Developed a machine learning capable mobile app to predict if a patient will have complications when taking a medication.</p>
                     <ul className="resume-section-entry-points-list">
                         <li>Created the pipeline and defined the work-flow for the development of the application.</li>
@@ -51,7 +51,7 @@ const HTMLResume = () => {
                         <li>Learned the use of Android Studio for Android app development along with the use of TenslowFlow and Keras.</li>
                         <li>Learned to research and learn new skills.</li>
                     </ul>
-                    <h3 className="resume-section-entry">International Hackathon Team Leader, Hack Upstate XV<p class="resume-date">(12/2020 - 12/2020)</p></h3>
+                    <h3 className="resume-section-entry">International Hackathon Team Leader, Hack Upstate XV<p className="resume-date">(12/2020 - 12/2020)</p></h3>
                     <p className="resume-section-entry-desc">Created a relationship advice app using Flutter and powered by artificial intelligence.</p>
                     <ul className="resume-section-entry-points-list">
                         <li>Led the back-end development team (4 members).</li>
@@ -60,8 +60,17 @@ const HTMLResume = () => {
                         <li>Learned about the software development life-cycle practically.</li>
                         <li>Learned to work in a relatively big team (5 members in the back-end, and 7 in the front-end).</li>
                     </ul>
+                    <h3 className="resume-section-entry">Team Leader, Computer Science Project<p className="resume-date">(07/2020 - 11/2020)</p></h3>
+                    <p className="resume-section-entry-desc">Created a coronary artery disease prediction web app. <a href="https://cadprediction.herokuapp.com">https://cadprediction.herokuapp.com</a></p>
+                    <ul className="resume-section-entry-points-list">
+                        <li>Led a team of 3 - allocated tasks, organized meetings, resolved conflicts, and supervised team members' progress.</li>
+                        <li>Explored and used a novel feature selection technique.</li>
+                        <li>Developed machine learning models to embed inside the web app.</li>
+                        <li>Learned to work independently.</li>
+                        <li>Learned how to work on a project from scratch whilst applying knowledge obtained from all other units.</li>
+                    </ul>
                     <h2 className="resume-section-name">EDUCATION</h2>
-                    <h3 className="resume-section-entry">Bachelor of Computer Science<p class="resume-education-location">Monash University</p></h3>
+                    <h3 className="resume-section-entry">Bachelor of Computer Science<p className="resume-education-location">Monash University</p></h3>
                     <div className="resume-date-score">
                         <div className="resume-date resume-date-education"><p>(01/2018 - 12/2020)</p></div>
                         <div className="resume-education-average-score"><p>GPA: 3.917/4.000</p></div>
@@ -92,6 +101,7 @@ const HTMLResume = () => {
                 </div>
                 <div className="resume-body-right-half">
                     <h2 className="resume-section-name" id="resume-awards">AWARDS AND ACHIEVEMENTS</h2>
+                    {/* <br></br> */}
                     <ul className="resume-medium-list resume-section-entry-points-list">
                         <li>Monash International Merit Scholarship <p className="resume-year">(2020)</p></li>
                         <li>Top 12% in Adv. Algo and Data Structures Cohort <p className="resume-year">(2020)</p></li>
@@ -127,6 +137,11 @@ const HTMLResume = () => {
                         <li>Mandarin: Fluent but low literacy</li>
                         <li>Malay: Fluent and literate</li>
                     </ul>
+                    <h2 className="resume-section-name">HOBBIES</h2>
+                    <h3 className="resume-section-entry">YouTube Channel</h3>
+                    <p className="resume-section-entry-desc">Started a YouTube channel - <a className="distinctive" rel="noreferrer" href="https://www.youtube.com/channel/UCcGa7qhbDJcHMW3eaXyJeiQ" target="_blank">Aspiring Computer Scientist</a> - to share what I have learned.</p>
+                    <h3 className="resume-section-entry">Drawing</h3>
+                    <p className="resume-section-entry-desc">I enjoy spending some time sketching things I find interesting.</p>
                 </div>
                 <div className="resume-bottom">
                     <br id="resume-separator"></br>

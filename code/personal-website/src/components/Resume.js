@@ -17,7 +17,7 @@ function Resume({resumeVersion, setResumeVersion}) {
     return (
       <div className="Resume">
         <MenuBar active={1}></MenuBar>
-        <h1 className="page-name">Resume</h1>
+        <h1 className="page-name">Resume - HTML</h1>
         <div className = "version-buttons">
           <button onClick = {pdfButtonHandler}>PDF</button>
           <button onClick = {htmlButtonHandler}>HTML</button>
@@ -32,6 +32,7 @@ function Resume({resumeVersion, setResumeVersion}) {
     return (
       <div className="Resume">
         <MenuBar active={1}></MenuBar>
+        <h1 className="page-name">Resume - PDF</h1>
         <div className = "version-buttons">
           <button onClick = {pdfButtonHandler}>PDF</button>
           <button onClick = {htmlButtonHandler}>HTML</button>

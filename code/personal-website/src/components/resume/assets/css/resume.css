@@ -41,6 +41,18 @@
     background-color: white;
 }
 
+.resume-page .distinctive:active {
+    color: rgb(57, 116, 218);
+}
+
+.resume-page .distinctive:visited {
+    color: rgb(51, 104, 194);
+    border: 3px solid red;
+}
+
+.resume-page .distinctive:hover {
+    color: #555555;
+}
 
 
 .resume-start {
@@ -373,4 +385,7 @@
         display:block;
         /* justify-content: space-between  ; */
     }
+
+    
+
 }
