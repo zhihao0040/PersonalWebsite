@@ -19,6 +19,7 @@ function App() {
           <Route exact path="/PersonalWebsite/contacts"><Contacts></Contacts></Route>
           <Route exact path="/PersonalWebsite/skills"><Skills></Skills></Route>
           <Route exact path="/PersonalWebsite/projects"><Projects></Projects></Route>
+          {/* <Route exact path="/PersonalWebsite/projects/asteroid"></Route> */}
         </Switch>
       </div>
     </Router>
