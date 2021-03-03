@@ -3,7 +3,9 @@ import {useState, useEffect} from 'react'
 import '../App.css'
 import { Route, Link} from 'react-router-dom' 
 import Submenu from './Submenu'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import 'font-awesome/css/font-awesome.min.css';
+import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 function MenuBar({active}) {
     
@@ -58,7 +60,7 @@ function MenuBar({active}) {
             <li className={`${active === 3 ? "active" : ""}`}><Link to="/PersonalWebsite/skills">SKILLS</Link></li>
             <li className={`${active === 4 ? "active" : ""}`}><Link to="/PersonalWebsite/contacts">CONTACTS</Link></li>
             <li className={`${active === 5 ? "active" : ""}`}>
-                <a id="hamburger" className="menu-icon" tabIndex="0" onClick={menuHamburgerFunction}><i className="fas fa-bars"></i>
+                <a id="hamburger" className="menu-icon" tabIndex="0" onClick={menuHamburgerFunction}><FontAwesomeIcon icon={faBars}/>
                     <Submenu active={active} showDropdown={showDropdown}></Submenu>
                 </a>
             </li>

@@ -262,3 +262,37 @@ HOME
 .book-image {
   float:none;
 }
+
+.Project {
+  display:flex;
+}
+
+.Project .project-flex-item-img {
+  flex: 1;
+}
+
+.Project .project-flex-item-img .project-image {
+  /* position: absolute; */
+  max-width: 90%;
+  max-height: 85%;
+
+}
+
+
+.Project .project-flex-item-others {
+  flex: 2;
+}
+
+@media screen and (max-width: 790px) {
+  .Project {
+    flex-direction: column;
+  }
+  .Project .project-flex-item-img {
+    flex: 1;
+  }
+
+  .Project .project-flex-item-others {
+    flex: 1;
+  }
+}
+
