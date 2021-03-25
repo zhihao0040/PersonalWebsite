@@ -38,21 +38,20 @@ const HTMLResume = () => {
                     <h3 className="resume-section-entry">Teaching Associate, Monash University<p className="resume-date">(02/2021 - Ongoing)</p></h3>
                     <p className="resume-section-entry-desc">Assisting lecturers and running lab sessions to enhance student learning for the unit <a className="distinctive" rel="noreferrer" href="https://handbook.monash.edu/2021/units/FIT3155" target="_blank">Advanced Algorithms and Data Structures</a>.</p>
                     <ul className="resume-section-entry-points-list">
-                        <li>Run lab sessions for different classes.</li>
-                        <li>Explain and clarify unit's contents for students.</li>
+                        <li>Run lab sessions for different classes to explain concepts succinctly and clarify students' understanding of the different algorithms and data structures presented in the unit</li>
                         <li>Learned to explain concepts clearly and concisely.</li>
                         <li>Learned to work in a professional setting as a team.</li>
                     </ul>
-                    <h3 className="resume-section-entry">Research Position, Monash University IT Dept.<p className="resume-date">(12/2019 - 06/2020)</p></h3>
-                    <p className="resume-section-entry-desc">Developed a machine learning capable mobile app to predict if a patient will have complications when taking a medication.</p>
+                    <h3 className="resume-section-entry">Research Assistant, Monash University IT Dept.<p className="resume-date">(12/2019 - 06/2020)</p></h3>
+                    <p className="resume-section-entry-desc">Took part in the development of a machine learning capable mobile app to predict if a patient will have complications when taking a medication.</p>
                     <ul className="resume-section-entry-points-list">
-                        <li>Created the pipeline and defined the work-flow for the development of the application.</li>
-                        <li>Researched methods to efficiently pull bulk data from the FHIR server.</li>
-                        <li>Learned the use of Android Studio for Android app development along with the use of TenslowFlow and Keras.</li>
+                        <li>Created the pipeline and defined the workflow for the development of the application.</li>
+                        <li>Researched methods to efficiently pull bulk data from FHIR servers.</li>
+                        <li>Enhanced knowledge of the use of Android Studio for Android app development along with the use of TensorFlow and Keras.</li>
                         <li>Learned to research and learn new skills.</li>
                     </ul>
                     <h3 className="resume-section-entry">International Hackathon Team Leader, Hack Upstate XV<p className="resume-date">(12/2020 - 12/2020)</p></h3>
-                    <p className="resume-section-entry-desc">Created a relationship advice app using Flutter and powered by artificial intelligence.</p>
+                    <p className="resume-section-entry-desc">Created a relationship advice app using powered by artificial intelligence using Flutter for cross-platform development.</p>
                     <ul className="resume-section-entry-points-list">
                         <li>Led the back-end development team (4 members).</li>
                         <li>Integrated the front-end with the back-end.</li>
@@ -124,7 +123,7 @@ const HTMLResume = () => {
                     <h2 className="resume-section-name">PROGRAMMING LANGUAGES</h2>
                     <ul className="resume-medium-list resume-section-entry-points-list">
                         <li>JavaScript: React.js, Node.js, Mocha.js, Material UI </li>
-                        <li>Python: SkLearn, Pandas, TensorFlow </li>
+                        <li>Python: SkLearn, Pandas, NumPy, TensorFlow </li>
                         <li>C: OpenMPI, POSIX, OpenMP</li>
                         <li>Java</li>
                         <li>TypeScript</li>
