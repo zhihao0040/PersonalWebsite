@@ -50,7 +50,7 @@ const Home = () => {
               health IT. After 
               meeting <a className="links" href="https://research.monash.edu/en/persons/arun-konagurthu" target="_blank">Arun Konagurthu</a> and 
               Taylor Kearney, two amazing teachers, I gained interest in teaching/tutoring. I applied and got accepted as a tutor
-              for the unit Advanced Algorithms and Data Structures in Monash and will be tutoring starting from March 2021 - July 2021.
+              for the unit Advanced Algorithms and Data Structures as well as Theory of Computation in Monash from March 2021 - November 2021.
             </p>
           </div>
         </div>
