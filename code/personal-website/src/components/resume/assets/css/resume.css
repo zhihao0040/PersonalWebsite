@@ -1,0 +1,391 @@
+.resume-body, .resume-body * {
+    font-family:'Arial Narrow', sans-serif;
+}
+
+.resume-body {
+    background-color:bisque;
+    font-size: 11px;
+}
+
+.resume-page {
+    position: absolute;
+    border: 1px inset #cccccc;
+    border-radius: 3px;
+    box-shadow: 3px 5px;
+    display: inline-block;
+    width: 794px;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+}
+
+
+
+.resume-page a {
+    text-decoration: none;
+}
+
+.resume-page a:visited {
+    color: black;
+}
+
+.resume-page a:hover {
+    color: #555555
+}
+
+.resume-page a:active {
+    color:rgb(57, 116, 218);
+}
+
+.resume-page, .resume-page * {
+    background-color: white;
+}
+
+.resume-page .distinctive:active {
+    color: rgb(57, 116, 218);
+}
+
+.resume-page .distinctive:visited {
+    color: rgb(51, 104, 194);
+    border: 3px solid red;
+}
+
+.resume-page .distinctive:hover {
+    color: #555555;
+}
+
+
+.resume-start {
+    margin-left:25px;
+    background-color: white;
+    display: block;
+}
+
+.resume-name-intro {
+    margin-left:25px;
+    float: left;
+    width: 300px;
+    background-color: white;
+}
+
+
+.resume-name {
+    /* border: 1px solid black; */
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-size: 30px;
+}
+
+.resume-intro {
+    margin-top: 0px;
+    padding:0px;
+    text-align:justify;
+    font-size: 12px;
+}
+
+.resume-contact-div {
+    padding-top: 25px;
+    float: right;
+    /* border: 1px solid red; */
+}
+
+.resume-contact {
+    list-style-type: none;
+    text-align: right;
+    line-height: 13px;
+    margin: 0;
+    margin-right: 15px;
+    padding: 0;
+}
+
+.resume-contact li {
+    vertical-align: middle;
+    border: 2px solid white;
+}
+
+.resume-contact li img {
+    position:relative; 
+    top:4px;
+    overflow: auto;
+}
+
+.resume-body-left-half {
+    margin-left: 50px;
+    width: 41.5%;
+    /* border: 1px solid black; */
+    float: left;
+}
+
+.resume-section-name {
+    font-size: 19px;
+    margin-bottom: 0px;
+}
+
+.resume-section-entry {
+    font-size: 13px; 
+    /* font-weight: normal; */ /* To bold or not to bold that is the question*/
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.resume-date {
+    font-size: 12px;
+    color:rgb(57, 116, 218);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.resume-section-entry-desc {
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
+
+.resume-section-entry-points-list {
+    line-height: 12px;
+    margin: 0px;
+    /* margin-right: 15px; */
+    padding-left: 17px;
+    list-style: none;
+}
+
+.resume-section-entry-points-list li::before {
+    content: "\2022";  
+    color: rgb(57, 116, 218); 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
+    font-size: 150%;
+}
+
+.resume-section-entry-points-list li {
+    font-size: 11px;
+}
+
+.resume-education-location {
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.resume-date-education {
+    float: left;
+    /* display: inline; */
+}
+
+.resume-date p {
+    margin-top: 0px;
+    font-weight: strong;
+    margin-bottom: 0px;
+}
+
+.resume-education-average-score {
+    float: right;
+    /* display: inline-block; */
+}
+
+.resume-education-average-score p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: rgb(57, 116, 218); 
+}
+
+.resume-date-score {
+    /* display: block; */
+    /* border: 1px solid black; */
+    overflow: auto;
+}
+
+.resume-secondary-score {
+    /* display: block; */
+    /* float: right; */
+    overflow: auto;
+}
+
+.resume-secondary-score p {
+    margin-top: 0px;
+    color: rgb(57, 116, 218); 
+    float: right;
+    margin-bottom: 0px;
+}
+
+.resume-education-description { /* This isnt supposed to be first element. DO the 2nd float WAM*/
+    margin-top: 0;
+}
+
+.resume-dot-points-left {
+    /* border: 1px solid black; */
+    width: 45.5%;
+    float:left;
+}
+
+.resume-education-split-dot-points {
+    margin-top: 12px;
+}
+
+.resume-body-right-half {
+    /* border: 1px solid red; */
+    float:right;
+    width: 43.5%;
+    margin-right: 30px;
+}
+
+.resume-medium-list {
+    line-height: 22px;
+    margin-top: 0px;
+}
+
+.resume-medium-list li {
+    /* float: left; */
+    font-size: 12px;
+}
+
+#resume-awards {
+    margin-bottom:0px;
+}
+
+.resume-year {
+    color: rgb(57, 116, 218); 
+    display: inline;
+}
+
+#resume-skills {
+    margin-top: 17px;
+}
+
+.resume-bottom {
+    /* border: 10px solid rgb(127, 58, 230); */
+    clear: both;
+}
+
+.resume-bottom-name {
+    text-align:center;
+}
+
+.resume-interests-entry {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.resume-interests-entry li {
+    border: 1px solid grey; 
+    display: inline;
+    border-radius: 3px;
+    margin-right: 30px;
+    padding: 3px 3px 3px 3px;
+}
+
+#resume-references-entry {
+    font-weight: bold;
+    font-size: 11px;
+    text-align: center;
+    margin-top: 3px;
+}
+
+/* #resume-separator {font-size: 30px;} */
+
+#resume-hr {background-color: rgb(57, 116, 218); width: 794px;}
+#resume-phone-img {top:2px;}
+
+/* was 794 width, was 300 width */
+@media screen and (max-width: 790px) {
+    .resume-page {
+        position: absolute;
+        border: 1px inset #cccccc;
+        border-radius: 3px;
+        box-shadow: 3px 5px;
+        display: inline-block;
+        width: 100%; 
+        left: 50%;
+        transform: translateX(-50%);
+        /* overflow: auto;
+        overflow-x:scroll; */
+    }
+
+    .resume-name {
+        /* border: 1px solid black; */
+        text-align:center;
+    }
+
+    .resume-name-intro {
+        margin-left:0px;
+        width: 91%;
+        /* border: 1px solid red; */
+    }
+    
+    /*  */
+    .resume-body-left-half {
+        /* margin-left: 50px; */
+        margin-left: 5px;
+        width: 48%;
+        /* border: 1px solid black; */
+        float: left;
+    }
+
+    .resume-body-right-half {
+        /* border: 1px solid red; */
+        float:right;
+        width: 47%;
+        margin-right: 5px;
+        /* margin-right: 30px; */
+    }
+
+    .resume-dot-points-left {
+        /* border: 1px solid black; */
+        width: 63.5%;
+        float:left;
+    }
+
+    .resume-secondary-score p {
+        margin-top: 0px;
+        color: rgb(57, 116, 218); 
+        float: left;
+        margin-bottom: 0px;
+    }
+
+    .resume-date-education {
+        float:none;
+        /* display: inline; */
+    }
+
+    .resume-education-average-score {
+        float: left;
+        display: block;
+    }
+
+    .resume-bottom {
+        /* border: 10px solid rgb(127, 58, 230); */
+        clear: both;
+    }
+
+    .resume-left-half li, .resume-right-half li {
+        font-size: 9px;
+    }
+    
+
+    .resume-interests-entry li {
+        border: 1px solid grey; 
+        display: inline-block;
+        border-radius: 3px;
+        margin-right: 30px;
+        padding: 3px 3px 3px 3px;
+        height: 16px;
+        text-align: center;
+        margin-bottom: 12px;
+    }
+
+    .resume-interests-entry li:last-child {
+        margin-bottom: 0px;
+    }
+
+    .resume-interests-entry {
+        /* line-height: 16px; */
+        height:auto;
+        display:block;
+        /* justify-content: space-between  ; */
+    }
+
+    
+
+}

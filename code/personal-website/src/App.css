@@ -1,0 +1,321 @@
+/* https://stackoverflow.com/questions/63767864/how-do-i-select-link-tag-in-react-router-dom-with-css */
+
+.menu {
+  margin-left: 0px;
+  background-color: rgba(20, 19, 19, 0.751);
+  /* overflow: hidden; */
+  position: sticky;
+  position: -webkit-sticky;
+  z-index: 2;
+  width:100%;
+  left: 0;
+  top:0;
+}
+
+.menu ul {
+  /* display: flex; */
+  /* margin-left: 0px 0px 0px 0px; */
+  margin-block-start: 0em;
+  margin-block-end: 0px;
+  padding-inline-start: 0;
+  margin-inline-start: 0;
+  list-style-type: none;
+  /* justify-content: space-between; */
+ }
+
+.menu li {
+  /* flex: 1; */
+  /* border: 2px solid black; */
+  /* background-color: rgba(20, 19, 19, 0.564); */
+  text-align:center;
+  /* padding: 4px 80px 4px 0px; */
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: inline-block;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+.menu a {
+  color:aliceblue;
+  /* display: block; */
+  text-decoration: none;
+}
+
+.menu a:hover {
+  /* background-color:  rgba(20, 19, 19, 1); */
+  color: rgb(122, 242, 248);
+  
+}
+
+.menu .menu-icon {
+  display: none;
+}
+
+.submenu li{
+  display: none;
+}
+
+.menu li:last-child {
+  float: right;
+  /* margin-right: 80px; */
+}
+
+@media screen and (max-width: 790px) {
+  .menu li:not(:first-child){
+    display: none;
+  }
+
+  .menu li:last-child{
+    display:block;
+  }
+
+  .submenu li:last-child{
+    display: none;
+  }
+
+  .menu .menu-icon {
+    float:right;
+    display:block;
+  }
+}
+
+/* @media screen and (max-width: 600px) {
+  .submenu:focus {
+
+    position: absolute;
+    background-color: rgba(20, 19, 19, 0.751);
+    right: 0;
+    z-index: 1;
+  }
+
+  .menu.responsive .submenu li{
+    display: block;
+
+  }
+} */
+
+@media screen and (max-width: 790px) {
+  .menu.responsive .submenu {
+
+    position: absolute;
+    background-color: rgba(20, 19, 19, 0.751);
+    right: 0;
+    z-index: 1;
+  }
+
+  .menu.responsive .submenu li{
+    display: block;
+
+  }
+}
+
+.page-name {
+  text-align: center;
+  text-decoration:underline;
+}
+
+.active {
+  background-color: rgba(171, 171, 171, 0.782);
+}
+
+body {
+  background-color:bisque;
+}
+
+
+.version-buttons button {
+
+	display: inline-block;
+	padding: 12px 20px;
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+	user-select: none;
+  color: white;
+  background: linear-gradient(135deg, #272727, #5f5f5f);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+}
+
+
+.version-buttons {
+	display: flex;
+	align-items: center;
+  justify-content:space-evenly;
+  /* height: 90px; */
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.pdf-viewer {
+  position: absolute;
+  /* margin: auto; */
+  /* margin-top: 20px; */
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -24%); */
+}
+
+.alternative-to-iframe {
+  display: none;
+}
+
+@media screen and (max-width: 790px) {
+
+  .resume-iframe {
+    display:none;
+  }
+  
+  a.alternative-to-iframe {
+    display:block;
+    border: 2px solid black;
+    background: grey;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .pdf-viewer a:hover {
+    color: #555555;
+  }
+
+  p.alternative-to-iframe {
+    display:block;
+    color: black;
+  }
+}
+
+
+/* 
+HOME
+*/
+.white-page {
+  position: relative;
+  border: 1px inset #cccccc;
+  border-radius: 3px;
+  box-shadow: 3px 5px;
+  display: inline-block;
+  width: 794px;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: auto;
+}
+
+.white-page, .white-page * {
+  background-color: white;
+}
+
+@media screen and (max-width: 790px) {
+  .white-page {
+      position: relative;
+      border: 1px inset #cccccc;
+      border-radius: 3px;
+      box-shadow: 3px 5px;
+      display: inline-block;
+      width: 90%; 
+      left: 50%;
+      transform: translateX(-50%);
+      overflow: auto;
+  }
+}
+
+.home-title {
+  text-align:center;
+}
+
+.home-about-section {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.home-statistics {
+  display: flex;
+  background-color: rgb(40, 44, 52);
+  border: solid 1px black;
+  width: 794px;
+  justify-content:center;
+  margin:auto;
+  flex-direction: column;
+}
+
+.home-stats-item {
+  flex: 1;
+  color: #03A062;
+}
+
+@media screen and (max-width: 790px) {
+  .home-statistics {
+      width: 90%; 
+  }
+}
+
+.home-section-entry {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.book-image {
+  float:none;
+}
+
+.Project {
+  display:flex;
+  justify-content:center;
+  border: 1px dotted grey;
+}
+
+.Project .project-flex-item-img {
+  flex: 0 0 30%;
+}
+
+.Project .project-flex-item-others {
+  flex: 0 0 70%;
+}
+
+.Project .project-flex-item-img .project-image {
+  /* position: absolute; */
+  max-width: 80%;
+  max-height: 100%;
+  margin-left: 10%;
+  /* left: 50%; */
+  transform: translateX(-10%);
+
+}
+
+
+
+@media screen and (max-width: 790px) {
+  .Project {
+    flex-direction: column;
+  }
+  .Project .project-flex-item-img {
+    flex: 1;
+  }
+
+  .Project .project-flex-item-img .project-image {
+    /* position: absolute; */
+    margin-left: 50%;
+    max-height: 200px;
+    transform: translateX(-50%);
+
+  }
+
+  .Project .project-flex-item-others {
+    flex: 1;
+  }
+}
+
+.project-flex-item-others a {
+  word-break:break-all;
+}
+
+/* below is an idea for implementing filter */
+/* .game {
+  display: none;
+} */
+
