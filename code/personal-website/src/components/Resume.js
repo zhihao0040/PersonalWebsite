@@ -1,7 +1,7 @@
 import '../App.css';
 import HTMLResume from './resume/HTMLResume'
 import MenuBar from './MenuBar'
-// Hi
+// Hi There
 
 function Resume({resumeVersion, setResumeVersion}) {
   
